@@ -1,32 +1,115 @@
 <template>
-  <div class="hello">
-    <h1>{{ msg }}</h1>
-    <p>
-      For a guide and recipes on how to configure / customize this project,<br>
-      check out the
-      <a href="https://cli.vuejs.org" target="_blank" rel="noopener">vue-cli documentation</a>.
-    </p>
-    <h3>Installed CLI Plugins</h3>
-    <ul>
-      <li><a href="https://github.com/vuejs/vue-cli/tree/dev/packages/%40vue/cli-plugin-babel" target="_blank" rel="noopener">babel</a></li>
-      <li><a href="https://github.com/vuejs/vue-cli/tree/dev/packages/%40vue/cli-plugin-eslint" target="_blank" rel="noopener">eslint</a></li>
-    </ul>
-    <h3>Essential Links</h3>
-    <ul>
-      <li><a href="https://vuejs.org" target="_blank" rel="noopener">Core Docs</a></li>
-      <li><a href="https://forum.vuejs.org" target="_blank" rel="noopener">Forum</a></li>
-      <li><a href="https://chat.vuejs.org" target="_blank" rel="noopener">Community Chat</a></li>
-      <li><a href="https://twitter.com/vuejs" target="_blank" rel="noopener">Twitter</a></li>
-      <li><a href="https://news.vuejs.org" target="_blank" rel="noopener">News</a></li>
-    </ul>
-    <h3>Ecosystem</h3>
-    <ul>
-      <li><a href="https://router.vuejs.org" target="_blank" rel="noopener">vue-router</a></li>
-      <li><a href="https://vuex.vuejs.org" target="_blank" rel="noopener">vuex</a></li>
-      <li><a href="https://github.com/vuejs/vue-devtools#vue-devtools" target="_blank" rel="noopener">vue-devtools</a></li>
-      <li><a href="https://vue-loader.vuejs.org" target="_blank" rel="noopener">vue-loader</a></li>
-      <li><a href="https://github.com/vuejs/awesome-vue" target="_blank" rel="noopener">awesome-vue</a></li>
-    </ul>
+  <div class="welcome">
+    
+
+    <div class="alert alert-success alert-dismissible fade show" role="alert">
+  With Bootstrap!
+  <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+    <span aria-hidden="true">&times;</span>
+  </button>
+</div>
+
+    
+      <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-dark navbar-custom fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="#">
+          <img src="@/assets/images/intuwild_logo.png" height="50" width="200">
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#">Sign Up</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Log In</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <header class="masthead text-center text-white">
+    <div class="masthead-content">
+      <div class="container">
+        <h1 class="masthead-heading mb-0">Wilderness</h1>
+        <h2 class="masthead-subheading mb-0">Find your inner explorer!</h2>
+        <a href="#" class="btn btn-primary btn-xl rounded-pill mt-5">FIND SPOTS</a>
+      </div>
+    </div>
+    <div class="bg-circle-1 bg-circle"></div>
+    <div class="bg-circle-2 bg-circle"></div>
+    <div class="bg-circle-3 bg-circle"></div>
+    <div class="bg-circle-4 bg-circle"></div>
+  </header>
+
+  <section>
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-lg-6 order-lg-2">
+          <div class="p-5">
+            <img class="img-fluid rounded-circle" src="img/01.jpg" alt="">
+          </div>
+        </div>
+        <div class="col-lg-6 order-lg-1">
+          <div class="p-5">
+            <h2 class="display-4">For those about to rock...</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod aliquid, mollitia odio veniam sit iste esse assumenda amet aperiam exercitationem, ea animi blanditiis recusandae! Ratione voluptatum molestiae adipisci, beatae obcaecati.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-lg-6">
+          <div class="p-5">
+            <img class="img-fluid rounded-circle" src="img/02.jpg" alt="">
+          </div>
+        </div>
+        <div class="col-lg-6">
+          <div class="p-5">
+            <h2 class="display-4">We salute you!</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod aliquid, mollitia odio veniam sit iste esse assumenda amet aperiam exercitationem, ea animi blanditiis recusandae! Ratione voluptatum molestiae adipisci, beatae obcaecati.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-lg-6 order-lg-2">
+          <div class="p-5">
+            <img class="img-fluid rounded-circle" src="img/03.jpg" alt="">
+          </div>
+        </div>
+        <div class="col-lg-6 order-lg-1">
+          <div class="p-5">
+            <h2 class="display-4">Let there be rock!</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod aliquid, mollitia odio veniam sit iste esse assumenda amet aperiam exercitationem, ea animi blanditiis recusandae! Ratione voluptatum molestiae adipisci, beatae obcaecati.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="py-5 bg-black">
+    <div class="container">
+      <p class="m-0 text-center text-white small">Copyright &copy; Your Website 2019</p>
+    </div>
+    <!-- /.container -->
+  </footer>
+
+
+
   </div>
 </template>
 
